@@ -16,8 +16,9 @@
 
 body {
 	background-image: 	 url('http://tribeinsider.com/wp-content/uploads/2016/05/Ruby-Programming-Language-Video-Course-Free.png');
-	background-size:     cover;                   
+	background-size:     100% 100%;                   
   background-repeat:   no-repeat;
+  background-attachment: fixed;
   font-family: "Open Sans";
 }
 
