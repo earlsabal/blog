@@ -13,3 +13,61 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-image: 	 url('http://tribeinsider.com/wp-content/uploads/2016/05/Ruby-Programming-Language-Video-Course-Free.png');
+	background-size:     cover;                   
+  background-repeat:   no-repeat;
+  font-family: "Open Sans";
+}
+
+.box {
+	background-color: #C0C0C0;
+	opacity: .9;
+	border: 1px solid blue;
+	width: 50%;
+	padding: 20px;
+	margin: 25px;
+	border-radius: 15px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: #8B0000;
+  padding: 0;
+
+  margin-left: -8px;
+  outline-color: white;  
+  outline-style: outset;
+  width: 100%;
+  z-index: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-link {
+    float: left;
+    padding: 14px 16px;
+}
+
+.nav-link a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #C0C0C0;
+}
+
+h1 {
+	margin-top: 60px;
+	color: white;
+}
